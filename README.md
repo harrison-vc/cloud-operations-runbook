@@ -28,3 +28,9 @@ Each runbook follows a standard, production-grade format:
 ## Usage
 
 These runbooks are intended for internal support engineering and SRE teams to standardize incident response and reduce Mean Time To Resolution (MTTR).
+## Incident Severity Levels
+
+- **SEV-1 (Critical)**: Complete service outage, total data loss, or high security breach.
+- **SEV-2 (High)**: Significant performance degradation or major feature unavailability.
+- **SEV-3 (Medium)**: Intermittent issues or non-critical feature failures.
+- **SEV-4 (Low)**: Minor UI bugs, documentation errors, or enhancement requests.
