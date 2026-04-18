@@ -1,3 +1,5 @@
+[![Lint](https://github.com/harrison-vc/cloud-support-runbook/actions/workflows/lint.yml/badge.svg)](https://github.com/harrison-vc/cloud-support-runbook/actions/workflows/lint.yml)
+
 # cloud-support-runbook
 
 A structured collection of cloud support runbooks for common infrastructure and application issues. This repository demonstrates a methodological approach to troubleshooting, root cause analysis, and incident prevention.
