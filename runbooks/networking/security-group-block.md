@@ -13,7 +13,7 @@ Production web server (EC2 instance) sitting in a public subnet. Security Group 
 2. Verify application listener: `ss -tulpn | grep 443` (Done on instance). Result: Process is listening on `0.0.0.0:443`.
 3. Test connectivity locally: `curl -k https://localhost` (Done on instance). Result: Success.
 
-## Investigation
+## Investigation & Triage Details
 1. Confirm external blocking: `nc -zv <public-ip> 443`. Result: `Connection timed out`.
 2. Inspect Security Group rules:
    ```bash
