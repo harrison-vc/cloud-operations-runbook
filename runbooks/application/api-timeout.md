@@ -40,4 +40,4 @@ A regional service degradation in the third-party Payment Gateway provider is ca
 - Implement the "Circuit Breaker" pattern (e.g., using Hystrix or Resilience4j) to handle upstream failures gracefully.
 - Add asynchronous processing (Queue-based) for non-immediate operations to avoid blocking synchronous API calls.
 - Monitor upstream latency specifically and set up alerts for when P99 exceeds baseline (>2s).
-- Maintain multi-region or secondary provider support for critical upstream dependencies.
+- Maintain multi-region or secondary provider availability for critical upstream dependencies.

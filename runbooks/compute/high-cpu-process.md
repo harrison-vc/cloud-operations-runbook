@@ -41,4 +41,4 @@ A poorly optimized regular expression in the input validation layer was suscepti
 - Implement linting rules (e.g., `eslint-plugin-security`) to detect unsafe regex.
 - Use regex timeout settings in the application code.
 - Introduce load testing during CI to simulate high-traffic scenarios before deployment.
-- Set up CPU alarms (>80% for 5 mins) to alert the support team immediately.
+- Set up CPU alarms (>80% for 5 mins) to alert the engineering team immediately.

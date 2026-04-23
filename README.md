@@ -1,8 +1,8 @@
-[![Lint](https://github.com/harrison-vc/cloud-support-runbook/actions/workflows/lint.yml/badge.svg)](https://github.com/harrison-vc/cloud-support-runbook/actions/workflows/lint.yml)
+[![Lint](https://github.com/harrison-vc/cloud-operations-runbook/actions/workflows/lint.yml/badge.svg)](https://github.com/harrison-vc/cloud-operations-runbook/actions/workflows/lint.yml)
 
-# cloud-support-runbook
+# cloud-operations-runbook
 
-A structured collection of cloud support runbooks for common infrastructure and application issues. This repository demonstrates a methodological approach to troubleshooting, root cause analysis, and incident prevention.
+A structured collection of cloud engineering runbooks for common infrastructure and application issues. This repository demonstrates a methodological approach to troubleshooting, root cause analysis, and incident prevention.
 
 ## Structure
 
@@ -29,4 +29,4 @@ Each runbook follows a standard, production-grade format:
 
 ## Usage
 
-These runbooks are intended for internal support engineering and SRE teams to standardize incident response and reduce Mean Time To Resolution (MTTR).
+These runbooks are intended for cloud operations and SRE teams to standardize incident response and reduce Mean Time To Resolution (MTTR).
